@@ -40,5 +40,5 @@ def Song.alphabetical
   @@all.sort_by {|song| song.name} 
 end 
 
-def 
+def Song.create_from_filename(name)
 end
