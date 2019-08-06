@@ -20,4 +20,9 @@ def Song.new_by_name(name)
   song = self.new 
   song.name = name 
 end 
+def Song.create_by_name(name) 
+  song = self.new 
+  song.name = name 
+  @@all<< song 
+end 
 end
