@@ -47,5 +47,5 @@ def Song.create_from_filename(name)
     @@all << song
 end 
  
-def 
-end 
+def Song.new_from_filename
+
